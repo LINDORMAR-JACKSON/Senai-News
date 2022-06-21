@@ -1,0 +1,10 @@
+#cabecalho{
+    height: 33.5vh;
+}
+#btn-3{
+    background-color: #06b6e2;
+    
+}
+#nav-side #btn-3 a{
+    color: white;
+}

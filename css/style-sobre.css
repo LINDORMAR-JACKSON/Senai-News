@@ -1,0 +1,64 @@
+/* FORMATAÇÃO DA PAGINA PODCASTS */
+
+@font-face{
+    font-family: franklin;
+    src: url(/franklin-gothic-demi.ttf);
+}
+
+#sidebar{
+    background-color: rgb(199, 199, 199);
+    border-bottom-right-radius:30px ;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+#cabecalho{
+    height: 33.7vh;
+}
+
+.container-sobre{
+    font-family: franklin;
+    width: 65%;
+    height: 715px;
+    background-color: #def5ff;
+    border: 3px solid #3fa9f5;
+    border-bottom-left-radius: 25px;
+}
+
+.sobre-title h1{
+    font-family: franklin;
+    text-align: center;
+    font-size: 2.8rem;
+    margin-top: 3vh;
+}
+
+.sobre-cabecalho{
+    height: 10vh;
+    margin-left: 4vh;
+    margin-right: 4vh;
+    margin-top: 8vh;
+}
+
+.sobre-cabecalho h1{
+    color: #005caa;
+    font-size: 2.5rem;
+}
+
+.sobre-cabecalho p{
+    color: #666666;
+    font-size: 1.8rem;
+    text-align: justify;
+}
+
+.sobre-cabecalho b{
+    color: #414040;
+}
+
+#btn-1{
+    background-color: #06b6e2;
+    
+}
+#nav-side #btn-1 a{
+    color: white;
+}

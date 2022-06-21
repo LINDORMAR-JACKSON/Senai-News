@@ -1,0 +1,89 @@
+    /* FORMATAÇÃO DA PAGINA PODCASTS */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+@font-face{
+    font-family: franklin;
+    src: url(/franklin-gothic-demi.ttf);
+}
+
+.container-eventos{
+    font-family: franklin;
+    width: 65%;
+    height: 100%;
+    background-color: transparent;
+    border: 3px solid transparent;
+    border-bottom-left-radius: 25px;
+}
+
+.carousel-inner img{
+    height: 450px;
+}
+
+.fa-caret-right, .fa-caret-left{
+    font-size: 5vh;
+    color: #3fa9f5;
+    transition: 0.2s;
+}
+
+.event-cabe h6{
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 1.5vh;
+    background-color: #005caa;
+    width: 9vw;
+    border-radius: 10px;
+    padding-left: 1.5vh;
+    margin-left: 2vh;
+}
+
+.event-cabe hr{
+    color: rgb(136, 136, 136);
+    width: 100%;
+}
+
+.event-cabe b{
+    color: #00ddec;
+}
+
+.event-cont{
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    /* border: red 3px solid; */
+    height: 160px;
+}
+
+.event-cont img{
+    width: 100%;
+    border-radius: 25px;
+}
+
+.event-cont h4{
+    font-family: franklin;
+    font-size: 1.4rem;
+}
+
+.event-cont h5{
+    background: #005caa;
+    border-radius: 10px;
+    float: right;
+    padding: 1px 10px;
+    color: white;
+    font-family: franklin;
+    font-size: 0.7rem;
+}
+
+.event-cont p{
+    font-size: 0.8rem;
+}
+
+.event-cont span{
+    color: #00ddec;
+}
+
+.event-info{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+

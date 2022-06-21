@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+@font-face {
+    font-family: myriad-pro;
+    src: url(/fontes/myriad-pro-8.otf);
+}
+
+@font-face{
+    font-family: franklin;
+    src: url(/franklin-gothic-demi.ttf);
+}
+#esquerda{
+    width: 65%;
+}
+#cabecalho{
+    background-color: #005caa;
+    width: 100%;    
+}
+#logo{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#logo img{
+    width: 100%;
+}
+#nav1{
+    justify-content: space-around;
+    font-family: franklin;
+}
+#nav1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    transition: all 0.3s ease;
+}
+#nav1 a:hover{
+    color: #06b6e2;
+}
+#inicio #ativo{
+    border-bottom: 5px solid #06b6e2;
+    padding-bottom: 1%;
+    color: #06b6e2;
+}
+.img-container{
+    width: 100%;
+}
+.conteudo-centro{
+    justify-content: space-between;
+}
+#main-1{
+    width: 400px;
+    height: 340px;
+    background-image: url(/img/pexels-chevanon-photography-1108101\ \(1\).jpg);
+    border-bottom-left-radius: 10%;
+    
+}
+#main-1 p{
+
+    width: 400px;
+    padding-top: 270px;
+    padding-bottom: 22px;
+    color: white;
+    text-align: center;
+    position: relative;
+    transition: 0.3s all ease;
+    background-image: linear-gradient(transparent, #005caa);
+    border-bottom-left-radius: 30px;
+}
+
+#main-2{
+    width: 400px;
+    height: 340px;
+    background-image: url(/img/pexels-chevanon-photography-1108101\ \(1\).jpg);
+}
+#main-2 p{
+
+    width: 400px;
+    padding-top: 270px;
+    padding-bottom: 22px;
+    color: white;
+    text-align: center;
+    position: relative;
+    transition: 0.3s all ease;
+    background-image: linear-gradient(transparent, #005caa);
+}
+#sidebar{
+    position: sticky;
+    top: 10px;
+    background-color: rgb(199, 199, 199);
+    border-bottom-right-radius:30px ;
+    height: 711px;
+}
+#subir{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    width: 86%;
+    color: #ffffff;
+    font-size: 50px;
+    margin-top: -100px;
+}
+#search{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+
+}
+#search input{
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    height: 35px;
+    margin-top: 3%;
+    padding: 10px;
+    background-color: white;
+}
+#search i{
+    position: absolute;
+    border: 2px solid rgb(255, 0, 0);
+    right: 360px;
+    top: 385px;
+    color: rgb(199, 199, 199);
+}
+#img-side{
+    width: 340px;
+    height: 240px;
+    margin: 0 auto;
+    background-image: url(/img/pexels-chevanon-photography-1108101\ \(1\).jpg);
+}
+
+#img-side p{
+    width: 340px;
+    padding-top: 170px;
+    padding-bottom: 22px;
+    color: white;
+    text-align: center;
+    position: relative;
+    background-image: linear-gradient(transparent, #005caa);
+}
+#nav-side{
+    flex-direction: column;
+}
+#nav-side button a{
+    transition: all 0.3s ease;
+}
+#nav-side button a:hover{
+    color: #06b6e2;
+}
+#nav-side button{
+    margin: 19px;
+    width: 90%;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+#nav-side button a{
+    text-decoration: none;
+    color: black;
+}
+#logo-side{
+    margin-top: 20px;
+}
+#cima{
+    background-color: #e6e6e6;
+    height: 10vh;
+    font-family: franklin;
+    text-align: center;
+    padding: 1vh;
+}
+#cima i{
+    padding: 10px;
+    color: #005caa;
+    font-size: 1.5rem;
+}
+#cima input{
+    border: none;
+    width: 50%;
+    height: 40%;
+    padding: 1%;
+}
+#cima button{
+    height: 40%;
+    padding: 0%;
+    background-color: #005caa;
+    border: none;
+    width: 15%;
+    color: white;
+    transition: all 0.3s ease;
+}
+#cima button:hover{
+    color: #06b6e2;
+}
+#baixo{
+    background-color: #005caa;
+    height: 10vh;
+}
+
+#logo-footer{
+    width: 4%;
+    margin: 0 auto;
+    padding-top: 0.5%;
+}
+#copy{
+    margin: 0 auto;
+    width: 20%;
+    text-align: center;
+    color: white;
+    padding-top: 0.3%;
+}
+

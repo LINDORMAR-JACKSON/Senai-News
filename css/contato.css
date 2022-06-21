@@ -1,0 +1,431 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+#btn-4{
+    background-color: #06b6e2;
+    
+}
+#nav-side #btn-4 a{
+    color: white;
+}
+
+
+@font-face{
+    font-family: franklin;
+    src: url(/franklin-gothic-demi.ttf);
+}
+#esquerda{
+    width: 65%;
+}
+#cabecalho{
+    background-color: #005caa;
+    width: 100%;    
+}
+#logo{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#logo img{
+    width: 100%;
+}
+#nav1{
+    justify-content: space-around;
+    font-family: franklin;
+}
+#nav1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    transition: all 0.3s ease;
+}
+#nav1 a:hover{
+    color: #06b6e2;
+}
+#inicio #ativo{
+    border-bottom: 5px solid #06b6e2;
+    padding-bottom: 1%;
+    color: #06b6e2;
+}
+.img-container{
+    width: 100%;
+}
+.conteudo-centro{
+    justify-content: space-between;
+}
+#main-1{
+    width: 400px;
+    height: 340px;
+    background-image: url(/img/pexels-chevanon-photography-1108101\ \(1\).jpg);
+    border-bottom-left-radius: 10%;
+    
+}
+#main-1 p{
+
+    width: 400px;
+    padding-top: 270px;
+    padding-bottom: 22px;
+    color: white;
+    text-align: center;
+    position: relative;
+    transition: 0.3s all ease;
+    background-image: linear-gradient(transparent, #005caa);
+    border-bottom-left-radius: 30px;
+}
+
+#main-2{
+    width: 400px;
+    height: 340px;
+    background-image: url(/img/pexels-chevanon-photography-1108101\ \(1\).jpg);
+}
+#main-2 p{
+
+    width: 400px;
+    padding-top: 270px;
+    padding-bottom: 22px;
+    color: white;
+    text-align: center;
+    position: relative;
+    transition: 0.3s all ease;
+    background-image: linear-gradient(transparent, #005caa);
+}
+#sidebar{
+    position: sticky;
+    top: 10px;
+    background-color: rgb(199, 199, 199);
+    border-bottom-right-radius:30px ;
+    height: 711px;
+}
+#subir{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    width: 86%;
+    color: #ffffff;
+    font-size: 50px;
+    margin-top: -100px;
+}
+#search{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+
+}
+#search input{
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    height: 35px;
+    margin-top: 3%;
+    padding: 10px;
+    background-color: white;
+}
+#search i{
+    position: absolute;
+    border: 2px solid rgb(255, 0, 0);
+    right: 360px;
+    top: 385px;
+    color: rgb(199, 199, 199);
+}
+#img-side{
+    width: 340px;
+    height: 240px;
+    margin: 0 auto;
+    background-image: url(/img/pexels-chevanon-photography-1108101\ \(1\).jpg);
+}
+
+#img-side p{
+    width: 340px;
+    padding-top: 170px;
+    padding-bottom: 22px;
+    color: white;
+    text-align: center;
+    position: relative;
+    background-image: linear-gradient(transparent, #005caa);
+}
+#nav-side{
+    flex-direction: column;
+}
+#nav-side button a{
+    transition: all 0.3s ease;
+}
+#nav-side button a:hover{
+    color: #06b6e2;
+}
+#nav-side button{
+    margin: 19px;
+    width: 90%;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+#nav-side button a{
+    text-decoration: none;
+    color: black;
+}
+#logo-side{
+    margin-top: 20px;
+}
+#cima{
+    background-color: #e6e6e6;
+    height: 10vh;
+    font-family: franklin;
+    text-align: center;
+    padding: 1vh;
+}
+#cima i{
+    padding: 10px;
+    color: #005caa;
+    font-size: 1.5rem;
+}
+#cima input{
+    border: none;
+    width: 50%;
+    height: 40%;
+    padding: 1%;
+}
+#cima button{
+    height: 40%;
+    padding: 0%;
+    background-color: #005caa;
+    border: none;
+    width: 15%;
+    color: white;
+    transition: all 0.3s ease;
+}
+#cima button:hover{
+    color: #06b6e2;
+}
+#baixo{
+    background-color: #005caa;
+    height: 10vh;
+}
+
+#logo-footer{
+    width: 4%;
+    margin: 0 auto;
+    padding-top: 0.5%;
+}
+#copy{
+    margin: 0 auto;
+    width: 20%;
+    text-align: center;
+    color: white;
+    padding-top: 0.3%;
+}
+
+
+
+
+
+#container{
+    margin-top: 10px;
+}
+/* ----------------------------------- CONTEÚDO ----------------------------------- */
+#conteudo{
+    /*border: 1px solid #333;*/
+    /*border-radius: 0.5em;*/
+    margin-left: 10%;
+    padding: 10px 120px;
+    margin-bottom: 10px;
+    width: 80%;
+    height: 830px;
+}
+.quadro1{
+    width: 66%;
+    height: 400px;
+    border: 1px solid rgb(199, 199, 199);
+    float: left;
+    padding: 10px;
+}
+.quadro2{
+    width: 33%;
+    height: 700px;
+    float: right;
+    background-color: rgb(199, 199, 199);
+    border-bottom-right-radius: 1em;
+    padding: 10px;
+}
+.quadro3{
+    /*clear: both;*/
+    margin-top: 12px;
+    margin-right: 12px;
+    width: 32.5%;
+    height: 289px;
+    border: 1px solid rgb(199, 199, 199);
+    float: left;
+    padding: 10px;
+}
+.quadro4{
+    width: 66%;
+    height: 99%;
+    float: left;
+    border: 1px solid #005caa;
+    background-color: #fff;
+    border-bottom-left-radius: 1em;
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.quadro4 p{
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    background-color: #005caa;
+    /*float: bottom;*/
+    border-bottom-left-radius: 10px;
+    /*font-family: ;*/
+}
+.quadropesquisar{
+    padding-left: 20px;
+    background-color: #fff;
+    border-radius: 1em;
+    height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+    line-height: 225%;
+}
+.quadropesquisar img{
+    width: 35px;
+    float: right;
+    background-color: rgb(134, 134, 134);
+    padding: 5px;
+    border-radius: 0.8em;
+    margin-right: 4px;
+    margin-top: 2px;
+}
+/* ----------------------------------- RODAPÉ ----------------------------------- */
+.barrarodape{
+    display: flex;
+    height: 100px;
+    background-color: rgb(231, 231, 231);
+    text-align: center;
+    padding: 10px 0 10px 320px;
+    /*padding: 10px;*/
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.redes{
+    text-align: left;
+    width: 50%;
+    padding: 5px;
+}
+.redes img{
+    width: 4%;
+    margin-left: 33px;
+    margin-top: 10px;
+}
+.recebaemail{
+    float: left;
+    color: #999;
+    background-color: #fff;
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    margin-top: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.recebabotao{
+    background-color: #005caa;
+    color: #fff;
+    float: left;
+    text-align: center;
+    width: 170px;
+    height: 30px;
+    padding: 5px;
+    margin-top: 10px;
+}
+/*
+#rodape{
+    background-color: #005caa;
+    border: 1px solid #333;
+    /*border-radius: 0.5em;
+    height: 130px;
+    padding: 20px;
+}
+#rodape img{
+    float: center;
+    align-items: center;
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+#rodape p{
+    color: #fff;
+    text-align: center;
+}
+*/
+/* ----------------------------------- FORMULÁRIO CONTATO ----------------------------------- */
+
+.form {
+    background-color: rgb(231, 231, 231);
+    padding: 20px 40px 0 40px;
+    width: 100%;
+    height: 650px;
+    font-size: 1.125rem;
+}
+
+.form label,
+.form input,
+.form textarea,
+.form button {
+    display: block;
+    width: 100%;
+}
+
+.form label {
+    color: #000;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.form input,
+.form textarea {
+    font: inherit;
+    padding: 0.2rem;
+    /*margin-bottom: 1rem;*/
+    border: 1px solid #000;
+    border-radius: 8px;
+    transition: border-color, box-shadow 0.2s;
+}
+
+.form textarea {
+    min-height: 6rem;
+    resize: vertical;
+}
+
+.form input:hover,
+.form input:focus,
+.form textarea:hover,
+.form textarea:focus {
+    outline: none;
+    border-color: #005caa;
+    box-shadow: 0 0 0 1px #005caa;
+}
+
+.form button {
+    width: 50%;
+    height: 40px;
+    float: right;
+    display: block;
+    margin-top: 5px;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    background: #005caa;
+    color: #fff;
+    font: inherit;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.form button:hover,
+.form button:focus {
+    outline: none;
+    background: #0270d1;
+}
